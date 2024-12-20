@@ -1,0 +1,6 @@
+mkdir -p __tests__/{unit,mocks,helpers}
+mkdir -p cypress/e2e/{critical-paths,regression,smoke}
+mkdir -p cypress/integration/{api,user-flows,services}
+mkdir -p shared/{fixtures,constants,utils}
+mkdir -p workflows/{pr-validation,staging-deploy,monitors}
+mkdir -p reports/{coverage,test-results} 
